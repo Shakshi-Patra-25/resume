@@ -1,0 +1,261 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Vollkorn', serif; */
+
+body{
+  text-align: center;
+}
+.navbar-nav{
+  margin-left:700px;
+    margin-right:20px;
+    font-family: 'Vollkorn', serif;
+    font-size: 21px;
+}
+.brand{
+  margin: 3px 3px 3px;
+}
+.name{
+  padding-top: 8px;
+  text-align: center;
+  padding-bottom: 0;
+  font-family:'Vollkorn', serif;
+  font-weight: bolder;
+  font-size: 64px;
+}
+.intro{
+  text-align: center;
+  margin: 0 60px;
+  line-height: 2;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: bold;
+  margin-top: -12px;
+}
+.con{
+  text-align: center;
+  margin: 0 60px;
+  line-height: 2;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: bold;
+}
+.icons{
+  float: left;
+  margin: 4px auto;
+  text-align: center;
+  font-size: 35px;
+  margin-left: auto;
+  padding-right: 14px;
+  padding-top: 1px;
+}
+ul{
+    margin-left: 40%;
+list-style-type: none;
+}
+.social:link{
+  color:#BAABDA;
+}
+.social:hover{
+  color:#CDDEFF;
+}
+.edu{
+  text-decoration: none;
+}
+.edu:link{
+  color:#CDDEFF;
+}
+.edu:hover{
+    color:#BAABDA;
+}
+.works{
+margin-bottom: 6%;
+}
+.work{
+  margin-top:90px;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 50px;
+}
+.row{
+height: 80%;
+}
+.col-4{
+  height: 90%;
+}
+img{
+  height: 42%;
+  weight:42%;
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top:6%;
+  margin-left: 28%;
+  margin-right: auto;
+}
+.profile{
+  height: 3.5%;
+  display: block;
+  margin-top: 18px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 18%;
+}
+.A4{
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+}
+.detail{
+    line-height: 1.5;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 200;
+}
+.h4{
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: bolder;
+  padding-bottom: 1%;
+    margin-left: 10%;
+    color: #22577E;
+}
+.h5{
+  line-height: 2;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: bolder;
+    margin-bottom: 25%;
+      margin-left: 16%;
+      margin-top: 8%;
+}
+.self{
+  margin-top:35px;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 50px;
+}
+/* sliders */
+#myinput {
+  background: linear-gradient(to right, #E99497 0%, #F3C583 50%, #E8E46E 50%, #B3E283 100%);
+  border: solid 1px #FF4848;
+  border-radius: 8px;
+  height: 13px;
+  width: 75%;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  margin-bottom: 3%;
+  margin-left: 18%;
+  margin-top: 0;
+}
+
+/* thumb in sliders */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 14px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -6px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 14px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 14px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.info{
+font-family: 'Vollkorn', serif;
+font-weight: 300;
+font-size: 22px;
+}
+/* contact page */
+/
+label{
+  display:block;
+  margin:1em 0 .2em;
+}
+/* single-line text, checkbox, and button */
+input, select, textarea{
+  display:block;
+  width:100%;
+  padding:.3em;
+  font-size:20px;
+  background-color:#fbfbfb;
+  border:solid 1px #CCC;
+  resize:vertical;
+}
+textarea{
+  min-height:180px;
+}
+select{
+  color:indigo;
+}
+option{
+  color:blue;
+  background: lavenderBlush;
+}
+input[type=checkbox]{
+  display:inline;
+  width:auto;
+  color:red;
+}
+
+input[type=submit]{
+  background:#22577E;
+  margin:1em 0 0;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+  background: lavenderBlush;
+}
+
+/* hover and focus states */
+input[type=submit]:hover,
+input[type=submit]:focus{
+  background: lightgreen;
+  outline:none;
+}
+
+@media screen and (min-width:600px) {
+  /*  make the form 2 columns */
+  form:after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+  .column{
+    width:50%;
+    padding:1em;
+    float:left;
+  }
+}
